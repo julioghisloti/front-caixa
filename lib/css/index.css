@@ -1,0 +1,11 @@
+/* Index Style */
+
+.box{
+	display: block;
+	padding: 15px;
+	top: 30px;
+}
+
+input[type="text"], input[type="password"]{
+	width: 100%;
+}

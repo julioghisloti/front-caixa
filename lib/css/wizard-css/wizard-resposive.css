@@ -1,0 +1,141 @@
+/* Wizard CSS  Responsive - By @julioghisloti */
+
+/* =====================================================================================================================
+		>1200px - Desktop
+===================================================================================================================== */
+ @media screen and (min-width: 1200px){
+	/* Navbar top ----------------------------------------------------------------------------- */
+	.navbar-top-all{margin-top: 0; width: 100%;}
+	.navbar-top{position: relative; margin-left: auto; margin-right: auto; width: 1200px;}
+
+	/* Components ----------------------------------------------------------------------------- */
+	.body{display: table; padding: 0; width: 100%;}
+	.block{
+		display: table;
+		margin-left: auto; 
+		margin-right: auto; 
+		margin-top: 7px; 
+		position: relative;
+		width: 1200px;
+	}
+
+	/* Sidebar -------------------------------------------------------------------------------- */
+	.sidebar{display: block; position: relative; height: 100%; margin: 14px 7px 0 20px; width: 210px}
+	.sidebar li{font-size: 1em;}
+	.sidebar li:first-child{font-size: 1.2em;}
+
+	/* Content --------------------------------------------------------------------------------- */
+	.content{width: 942px; margin: 14px 14px 20px 7px; }	
+
+	/* Cycle ----------------------------------------------------------------------------------- */
+	.cycle{height: 500px; overflow: hidden;}
+
+	/* Text Principal -------------------------------------------------------------------------- */
+	.text-principal{margin-bottom: 14px; width: 932px;}
+
+	/* Box ------------------------------------------------------------------------------------- */
+	.box{width: 287px;}
+}
+
+/* =====================================================================================================================
+		>1500px - Desktop
+===================================================================================================================== */
+@media screen and (min-width: 1500px){
+	/* Navbar top ----------------------------------------------------------------------------- */
+	.navbar-top{width: 1500px}
+
+	/* Components ----------------------------------------------------------------------------- */
+	.block{width: 1500px}
+
+	/* Content --------------------------------------------------------------------------------- */
+	.content{width: 1242px;}
+
+	/* Text Principal -------------------------------------------------------------------------- */
+	.text-principal{width: 1232px;}
+	
+	/* Box ------------------------------------------------------------------------------------- */
+	.box{width: 283px;}
+}
+
+/* =====================================================================================================================
+	 <950px - Mobile
+===================================================================================================================== */
+@media (max-width: 950px) {
+	/* Navbar top ----------------------------------------------------------------------------- */
+	.navbar-top-all{margin-top: 0; width: 100%}
+
+	/* Components ----------------------------------------------------------------------------- */
+	.body{display: table; padding: 0; width: 100%;}
+	.title{font-size: 1.5em;}
+	.block{
+		display: table;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 7px; 
+		position: relative;
+		width: 760px;
+	}
+
+	/* Cycle ----------------------------------------------------------------------------------- */
+	.cycle{margin-bottom: 7px; position: relative; width: 100%;}
+
+	/* Sidebar -------------------------------------------------------------------------------- */
+	.sidebar{display: block; position: relative; height: 100%; margin: 14px 7px 0 0; width: 170px}
+	.sidebar li{font-size: .9em;}
+	.sidebar li:first-child{font-size: 1em;}
+
+	/* Content --------------------------------------------------------------------------------- */
+	.content{width: 576px; margin: 14px 0 20px 7px; }	
+
+	/* Text Principal -------------------------------------------------------------------------- */
+	.text-principal{margin-bottom: 14px; width: 565px;}
+
+	/* Box ------------------------------------------------------------------------------------- */
+	.box{width: 262px;}
+
+	/* Dropdown Menu ---------------------------------------------------------------------------- */
+	.bt-menu-dropdown{display: block;}
+	.navbar-top-menu{
+		display: block;
+		margin: 0;
+		width: 100%;
+	}
+	.navbar-top-menu ul li{padding: 5px 0 5px 0;}
+	.navbar-top-menu a{margin-left: 5px;}
+
+	.navbar-top-comps{
+		background-color: #666;
+		display: none;
+		right: 0 !important;
+		width: 100%;
+		top: 60px;
+		z-index: 9999;
+	}
+
+	.navbar-top-comps a{
+		color: #ccc;
+	}
+	
+	.navbar-top-comps ul{
+		margin-bottom: 5px;
+	}
+
+	.navbar-top-comps li{
+		border-bottom: 1px solid #8B8B8B;
+		display: block;
+		width: 100%;
+	}
+
+	.search-navbar-top{margin-bottom: 5px; margin-left: 3px;}
+}
+/* =====================================================================================================================
+	 <770px - Mobile
+===================================================================================================================== */
+@media (max-width: 770px) {
+	.block{width: 95%;}
+	.cycle{width: 100%;}
+	.sidebar{width: 100%;}
+	.content{margin: 0; margin-top: 14px; width: 100%;}
+	.text-principal, .box{display: block; float: none; margin-left: auto; margin-right: auto; width: 97%;}
+	.box{margin-bottom: 14px;}
+}
